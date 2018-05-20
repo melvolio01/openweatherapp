@@ -1,0 +1,67 @@
+body {
+    background-color: #e0f7fa;
+    color: #00acc1;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px;
+  /*font-family: 'Skranji', cursive;*/
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+}
+
+h5 {
+    font-family: 'Arvo', serif;
+}
+
+#place {
+    text-align: center;
+    font-size: 16px;
+}
+
+#show-div {
+    text-align: center;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.message {
+    background-color: #ffcdd2;
+    color: #b71c1c;
+    text-align: center;
+    border: 1px solid #b71c1c;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.freezing {
+    background-color: #82b1ff;
+    color: #0d47a1;
+}
+
+.cool {
+    background-color: #e0f7fa;
+    color: #00acc1;
+}
+
+.mild {
+    background-color: #fffde7;
+    color: #212121;
+}
+
+.warm {
+    background-color: #ff9800;
+    color: #212121;
+}
+
+.hot {
+    background-color: #e64a19;
+    color: #fafafa;
+}
