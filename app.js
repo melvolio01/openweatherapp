@@ -12,11 +12,7 @@ var weatherUrl;
 pracBtn.addEventListener('click', function(event){
   // var location = locale.value;
   // var weatherUrl = `http://api.openweathermap.org/data/2.5/forecast?q=${location}&units=metric&APPID=${weathKey}`;
-  var weathKey = localStorage.getItem("weathKey");
-  if (!weathKey) {
-    weathKey = prompt("Enter API Key:");
-    var weathKey = localStorage.setItem("weathKey", weathKey);
-  }
+  var weathKey = '3deb813b1e60983fb6dbaf734637d606';
   place = locale.value;
   weatherUrl = `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast?q=${place}&units=metric&APPID=3deb813b1e60983fb6dbaf734637d606`
   event.preventDefault();
